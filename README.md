@@ -1,7 +1,8 @@
 This is example of working script, just collected some stuff from my Downloads folder and categorize files:) \
 Enjoy if u love that
 
-```{'category_suggestion': {'Audio': ['1601308323_arsen-shahunc-seda-pretenzii-net.mp3'],
+```
+{'category_suggestion': {'Audio': ['1601308323_arsen-shahunc-seda-pretenzii-net.mp3'],
                          'CSV': ['ready_to_upload.csv',
                                  'ready_to_upload_cat.csv',
                                  'ready_to_upload_cat2.csv',
