@@ -1,11 +1,9 @@
 import os
 
-from langchain.chains import LLMChain, SequentialChain
+from langchain.chains import LLMChain
 from langchain.chat_models import ChatOpenAI
 from loguru import logger
 from pprint import pprint
-from dotenv import load_dotenv
-from config import OPENAI_API_KEY
 # will be re-used by all my chains
 LLM = ChatOpenAI(model_name="gpt-3.5-turbo", temperature=0.1, request_timeout=60)
 
@@ -17,6 +15,10 @@ answer_question_chain = LLMChain.from_string(
     I will load my files in specific folder and you will suggest which files could
     be placed together logically. Also suggest name that generalize this files purposes or
     meanings
+    Answer in the following format:
+    Folder1 - file1, file2, file3
+    Folder2 - file1, file, ...
+    ...
     """,
 )
 

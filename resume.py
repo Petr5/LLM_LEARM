@@ -1,5 +1,4 @@
 from langchain_community.llms.openai import OpenAI
-from config import OPENAI_API_KEY
 import os
 from loguru import logger
 from pprint import pprint
