@@ -1,5 +1,5 @@
 This is example of working script, just collected some stuff from my Downloads folder and categorize files:) \
-Enjoy if u love that \
+Enjoy if u love that
 
 {'category_suggestion': {'Audio': ['1601308323_arsen-shahunc-seda-pretenzii-net.mp3'],
                          'CSV': ['ready_to_upload.csv',
